@@ -278,7 +278,7 @@ const MobiSaveLandingPage: React.FC = () => {
       </section>
 
       {/* Traction Section */}
-      <section id="section-traction" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cyan-500 to-cyan-300 px-4 py-16">
+      {/* <section id="section-traction" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cyan-500 to-cyan-300 px-4 py-16">
         <div className={`max-w-6xl w-full text-center transition-all duration-1000 ${isVisible['section-traction'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-5xl font-bold mb-4">📊 Traction & Status</h2>
           <p className="text-2xl mb-8 opacity-90">Ready for Lisk Mainnet Launch</p>
@@ -313,7 +313,7 @@ const MobiSaveLandingPage: React.FC = () => {
             <div className="bg-green-500/20 p-4 rounded-xl border-l-4 border-green-500">🌍 Expansion roadmap to Kenya & Nigeria</div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section id="section-cta" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 to-blue-600 px-4 py-16">
