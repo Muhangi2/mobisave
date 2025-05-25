@@ -277,44 +277,7 @@ const MobiSaveLandingPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Traction Section */}
-      <section id="section-traction" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cyan-500 to-cyan-300 px-4 py-16">
-        <div className={`max-w-6xl w-full text-center transition-all duration-1000 ${isVisible['section-traction'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className="text-5xl font-bold mb-4">📊 Traction & Status</h2>
-          <p className="text-2xl mb-8 opacity-90">Ready for Lisk Mainnet Launch</p>
-          
-          <div className="flex justify-around flex-wrap mb-8">
-            <div className="text-center m-4">
-              <div className="text-5xl font-bold text-green-500 mb-2">500+</div>
-              <p>Pre-registered users</p>
-            </div>
-            <div className="text-center m-4">
-              <div className="text-5xl font-bold text-green-500 mb-2">3</div>
-              <p>University partnerships</p>
-            </div>
-            <div className="text-center m-4">
-              <div className="text-5xl font-bold text-green-500 mb-2">2</div>
-              <p>Mobile money integrations ready</p>
-            </div>
-          </div>
-          
-          <div className="mb-8 text-xl space-y-2">
-            <p>✅ MVP Built & Tested on Lisk Testnet</p>
-            <p>✅ Smart Contracts Audited & Deployed</p>
-            <p>✅ Mobile Money Bridge Functional</p>
-            <p>✅ NFT Achievement System Ready</p>
-            <p>🚀 Mainnet Launch in 4 Weeks</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-green-500/20 p-4 rounded-xl border-l-4 border-green-500">💰 LSK token economics designed</div>
-            <div className="bg-green-500/20 p-4 rounded-xl border-l-4 border-green-500">🤝 Banking partnerships in discussion</div>
-            <div className="bg-green-500/20 p-4 rounded-xl border-l-4 border-green-500">📱 iOS & Android apps ready</div>
-            <div className="bg-green-500/20 p-4 rounded-xl border-l-4 border-green-500">🌍 Expansion roadmap to Kenya & Nigeria</div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* CTA Section */}
       <section id="section-cta" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 to-blue-600 px-4 py-16">
         <div className={`max-w-6xl w-full text-center transition-all duration-1000 ${isVisible['section-cta'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
